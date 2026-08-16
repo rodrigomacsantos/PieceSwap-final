@@ -1,0 +1,18 @@
+project_id = "nvxomtnkxbhnbxwtpkyg"
+
+
+[functions.ai-chat]
+verify_jwt = false
+
+[functions.ai-autofill-listing]
+verify_jwt = false
+
+[functions.admin-ai-assistant]
+verify_jwt = false
+
+[functions.login-with-username]
+verify_jwt = false
+
+[functions.ai-feedback]
+verify_jwt = false
+

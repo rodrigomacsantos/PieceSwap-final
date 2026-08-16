@@ -1,0 +1,2 @@
+ALTER TABLE public.sales_commissions DROP CONSTRAINT sales_commissions_status_check;
+ALTER TABLE public.sales_commissions ADD CONSTRAINT sales_commissions_status_check CHECK (status = ANY (ARRAY['pending'::text, 'paid'::text, 'refunded'::text, 'collected'::text]));
